@@ -32,6 +32,7 @@ verkefnaskil, hvert verkefni um sig gildir 25%. Verkefnin á að vinna í pörum
 tveir vinna saman viljum við sjá jafnt framlag frá báðum aðilum inn á Git
 history, það er því nauðsynlegt að skipta reglulega um Driver.
 
+
 Við breyttar aðstæður verður fyrirkomulagið örlítið frábrugðið síðustu árum og gerum við ráð fyrir að kenna það að mestu leiti í fjarkennslu. 
 Dagarnir skiptast þannig að fyrir hádegi er bóklegt nám og svo verklegt eftir hádegi. Við gerum ráð fyrir að nota eitthvað af upptökum frá því í fyrra sem við gerum ráð fyrir að þið horfið á um morguninn og svo verðum við með spurningatíma kl 11:00 á Zoom. 
 Við stefnum svo á að vera með tvo Zoom tíma í tengslum við verkefnið fyrst kl 13:00 - 14:00 og svo aftur kl 16:00-17:00. Við sjáum hvernig þetta kemur út, gætum aðlagað þetta eitthvað þegar við sjáum hvernig þetta kemur út. 
