@@ -1,6 +1,5 @@
 # Solutions
-- [Week 1]()
-- [Week 2]()
+
 
 # Grading
 
@@ -32,12 +31,10 @@ Megináherslan í námskeiðinu er á verkefnavinnu. Í lok hverrar viku eru
 verkefnaskil, hvert verkefni um sig gildir 25%. Verkefnin á að vinna í pörum, ef
 tveir vinna saman viljum við sjá jafnt framlag frá báðum aðilum inn á Git
 history, það er því nauðsynlegt að skipta reglulega um Driver.
-<setja inn nýja dagskrá>
-Dagarnir ganga þannig fyrir sig að við erum með fyrirlestra fyrir hádegi og eftir hádegi geta
-nemendur unnið í verkefni dagsins (sem nýtist í skilaverkefni) og það verða
-dæmatímakennarar til aðstoðar. Við byrjum fyrirlestrarna kl 09:00 og
-dæmatímakennarar verða á svæðinu milli 13:30 - 15:30 en við gerum ráð fyrir að
-þið séuð byrjuð á verkefni dagsins áður en þeir mæta.
+
+Við breyttar aðstæður verður fyrirkomulagið örlítið frábrugðið síðustu árum og gerum við ráð fyrir að kenna það að mestu leiti í fjarkennslu. 
+Dagarnir skiptast þannig að fyrir hádegi er bóklegt nám og svo verklegt eftir hádegi. Við gerum ráð fyrir að nota eitthvað af upptökum frá því í fyrra sem við gerum ráð fyrir að þið horfið á um morguninn og svo verðum við með spurningatíma kl 11:00 á Zoom. 
+Við stefnum svo á að vera með tvo Zoom tíma í tengslum við verkefnið fyrst kl 13:00 - 14:00 og svo aftur kl 16:00-17:00. Við sjáum hvernig þetta kemur út, gætum aðlagað þetta eitthvað þegar við sjáum hvernig þetta kemur út. 
 
 #### Er hægt að senda fyrirspurnir Piazza ?
 
@@ -81,6 +78,9 @@ leiðbeiningar um uppsetningu síðar.
 # Schedule
 
 *Draft might change*
+
+*Birt með fyrirvara um breytingar*
+
 ## Week 1
 
 ### Day 1: Mon. 23th of November
