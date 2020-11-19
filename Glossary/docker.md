@@ -20,10 +20,18 @@ RUN echo "Hello docker!"
 ```
 
 * ADD
+**Note**: This command is still used but please prefer using COPY, it does the same thing but is more stable.
 The ADD command gets two arguments: a source and a destination. It basically copies the files from the source on the host into the container's own filesystem at the set destination.
 ```
 # Usage: ADD [source directory or URL] [destination directory]
 ADD /my_app_folder /my_app_folder
+```
+
+* COPY
+The COPY command gets two arguments: a source and a destination. It basically copies the files from the source on the host into the container's own filesystem at the set destination.
+```
+# Usage: COPY [source directory or URL] [destination directory]
+COPY /my_app_folder /my_app_folder
 ```
 
 * CMD
