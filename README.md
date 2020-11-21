@@ -12,6 +12,48 @@
 
 We will read all chapters in this book. See schedule below.
 
+
+# Schedule
+
+*Draft might change*
+
+*Birt með fyrirvara um breytingar*
+
+*Slides:* https://reykjavik.instructure.com/courses/3823/modules
+*Videos:* https://reykjavik.instructure.com/courses/3823/external_tools/227
+
+## Week 1
+
+### Day 1: Mon. 23th of November
+
+|                        | Mon                                                      | Tue                                                       | Wed                                                                           | Thu                                                   | Fri                                              |
+| ---------------------- | -------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
+| **Lecture**            | Home: The Problem of Delivering Software, HGOP 1, HGOP 2(09:53 - 1:07) <br> 10:00 Introduction and Q&A (https://eu01web.zoom.us/j/68303049072) | Home: Configuration Management, HGOP 2 (1:12 - 2:12) <br> 11:00 Q&A (Zoom) | Build and Deployment Scripting, HGOP 3 () <br>Advanced Version Control, HGOP 3 () | The Anatomy of the Build Pipeline, HGOP ()                   | No lecture, Lab day                              |
+| **Reading Assignment** | Chapter 1                                                | Chapter 2,(3)                                  | Chapter 6,(11),14                                                                  | Chapter 5                                      |                                                  |
+| **Lab exercise**       | [Bash](/assignments/week-01/day-01/README.md) <br> 13:00 - 14:00 Zoom: <br> 16:00 - 17:00 Zoom:             | [Docker & AWS](/assignments/week-01/day-02/README.md)                     | [Terraform & Kubernetes](/assignments/week-01/day-03/README.md)                                             | [Circle CI](/assignments/week-01/day-04/README.md)  | [Week 1 Assignment](/assignments/week-01/day-05/README.md)   |
+
+## Week 2
+
+### Day 1: Mon. 30th of November
+
+|                        | Mon                                                                   | Tue                                                                                              | Wed                                                                  | Thu                                                                          | Fri                                               |
+| ---------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------- |
+| **Lecture**            | - Implementing a Test Strategy <br> - The Commit Stage <br> - Jenkins | - Automated Acceptance Testing<br>- TDD Demo <br> - Game intro <br>| - Testing Nonfunctional Requirements <br>                                    | - Guest lecture on security and security lab <br> | No lecture, Lab day                               |
+| **Reading Assignment** | Chapter 4,7                                                           |                                                                                                  | Chapter 8                                                            | Chapter 9                                                                    |                                                   |
+| **Lab exercise**       | [Pipeline](/assignments/week-02/day-06/README.md)                                | [Unit Testing](/assignments/week-02/day-07/README.md)                                                    | [Acceptance Testing](/assignments/week-02/day-08/README.md) | [Capacity Testing](/assignments/week-02/day-09/README.md) | [Week 2 Assignment](/assignments/week-02/day-10/README.md) |
+
+## Week 3
+
+### Day 1: Mon. 7th of December
+
+|                        | Mon                                                            | Tue                                                                  | Wed                                               | Thu                               | Fri                                                |
+| ---------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------- | -------------------------------------------------- |
+| **Lecture**            | - Deploying and Releasing Applications<br>- Managing Data | Mobile App Deployment <br> Accessibility<br>Usability | - Managing Continuous Delivery<br> Team Topology<br> - Guest lecture on compliance     | Time for students to prepare exam | Exam, 09:00 - 10:30                                |
+| **Reading Assignment** | Chapter 10, 12                                                     | Chapter 11                                                           |Chapter 15                                             |                                   |                                                    |
+| **Lab exercise**       | [Monitoring](/assignments/week-03/day-11/README.md)|   [Data Migrations](/assignments/week-03/day-12/README.md)                           | [E2E Testing](/assignments/week-03/day-13/README.md) |                                   | [Week 3 Assignment](/assignments/week-03/day-14/README.md) |
+
+
+
 # Q&A
 
 ### Spurt og svarað
@@ -75,39 +117,3 @@ við það. Nemendur þurfa ásamt því að vera með góðan editor á vélinn
 sem VS Code, WebStorm, SubLime, Atom eða sambærilegt. **Æskilegt er að hafa vél
 með 8GB í minni, 4GB ætti að sleppa fyrir horn.** Við munum gefa út
 leiðbeiningar um uppsetningu síðar.
-
-# Schedule
-
-*Draft might change*
-
-*Birt með fyrirvara um breytingar*
-
-## Week 1
-
-### Day 1: Mon. 23th of November
-
-|                        | Mon                                                      | Tue                                                       | Wed                                                                           | Thu                                                   | Fri                                              |
-| ---------------------- | -------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
-| **Lecture**            | - Introduction <br> - The Problem of Delivering Software | - Configuration Management<br> - Advanced Version Control | - Build and Deployment Scripting| - The anatomy of the build pipeline                   | No lecture, Lab day                              |
-| **Reading Assignment** | Chapter 1                                                | Chapter 2, (3), (13), 14                                  | Chapter 6,(11)                                                                  | Chapter 5                                      |                                                  |
-| **Lab exercise**       | [Bash](/assignments/week-01/day-01/README.md)                 | [Docker & AWS](/assignments/week-01/day-02/README.md)                     | [Terraform & Kubernetes](/assignments/week-01/day-03/README.md)                                             | [Circle CI](/assignments/week-01/day-04/README.md)  | [Week 1 Assignment](/assignments/week-01/day-05/README.md)   |
-
-## Week 2
-
-### Day 1: Mon. 30th of November
-
-|                        | Mon                                                                   | Tue                                                                                              | Wed                                                                  | Thu                                                                          | Fri                                               |
-| ---------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------- |
-| **Lecture**            | - Implementing a Test Strategy <br> - The Commit Stage <br> - Jenkins | - Automated Acceptance Testing<br>- TDD Demo <br> - Game intro <br>| - Testing Nonfunctional Requirements <br>                                    | - Guest lecture on security and security lab <br> | No lecture, Lab day                               |
-| **Reading Assignment** | Chapter 4,7                                                           |                                                                                                  | Chapter 8                                                            | Chapter 9                                                                    |                                                   |
-| **Lab exercise**       | [Pipeline](/assignments/week-02/day-06/README.md)                                | [Unit Testing](/assignments/week-02/day-07/README.md)                                                    | [Acceptance Testing](/assignments/week-02/day-08/README.md) | [Capacity Testing](/assignments/week-02/day-09/README.md) | [Week 2 Assignment](/assignments/week-02/day-10/README.md) |
-
-## Week 3
-
-### Day 1: Mon. 7th of December
-
-|                        | Mon                                                            | Tue                                                                  | Wed                                               | Thu                               | Fri                                                |
-| ---------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------- | -------------------------------------------------- |
-| **Lecture**            | - Deploying and Releasing Applications<br>- Managing Data | Mobile App Deployment <br> Accessibility<br>Usability | - Managing Continuous Delivery<br> Team Topology<br> - Guest lecture on compliance     | Time for students to prepare exam | Exam, 09:00 - 10:30                                |
-| **Reading Assignment** | Chapter 10, 12                                                     | Chapter 11                                                           |Chapter 15                                             |                                   |                                                    |
-| **Lab exercise**       | [Monitoring](/assignments/week-03/day-11/README.md)|   [Data Migrations](/assignments/week-03/day-12/README.md)                           | [E2E Testing](/assignments/week-03/day-13/README.md) |                                   | [Week 3 Assignment](/assignments/week-03/day-14/README.md) |
