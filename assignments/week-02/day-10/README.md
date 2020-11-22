@@ -1,3 +1,3 @@
 # Week 2 Assignment
 
-Thursday 04.12.2020
+Friday 04.12.2020
