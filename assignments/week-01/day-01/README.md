@@ -121,7 +121,8 @@ Submit a new issue on the course's Github repository with the following informat
 
 ## Handin
 
-You should store the answers and setup scripts inside your repository:
+This is how your repositories should look after todays assignment which you
+will submit on Friday.
 
 infrastructure repository:
 ```text
