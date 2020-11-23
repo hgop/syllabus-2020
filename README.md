@@ -23,7 +23,9 @@ We will read all chapters in this book. See schedule below.
 
 *Videos:* https://reykjavik.instructure.com/courses/3823/external_tools/227
 
+[*Practical session 13-14*](https://eu01web.zoom.us/j/63953746447?pwd=NDFPK2J0cVNQbElpZGovdUxFVjlrUT09)
 
+[*Practical session 16-17*](https://eu01web.zoom.us/j/63576957196?pwd=anhsWkhFL3dleklYMGpLbWcxZGQrZz09)
 
 ## Week 1
 
