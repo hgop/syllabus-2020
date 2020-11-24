@@ -19,7 +19,7 @@ A Simple Example:
 RUN echo "Hello docker!"
 ```
 
-* ADD
+* **ADD**\
 **Note**: This command is still used but please prefer using COPY, it does the same thing but is more stable.
 The ADD command gets two arguments: a source and a destination. It basically copies the files from the source on the host into the container's own filesystem at the set destination.
 ```
@@ -27,56 +27,67 @@ The ADD command gets two arguments: a source and a destination. It basically cop
 ADD /my_app_folder /my_app_folder
 ```
 
-* COPY
+* **COPY**\
 The COPY command gets two arguments: a source and a destination. It basically copies the files from the source on the host into the container's own filesystem at the set destination.
 ```
 # Usage: COPY [source directory or URL] [destination directory]
 COPY /my_app_folder /my_app_folder
 ```
 
-* CMD
+* **CMD**\
 The command CMD, similarly to RUN, can be used for executing a specific command. However, unlike RUN it is not executed during build, but when a container is instantiated using the image being built. Therefore, it should be considered as an initial, default command that gets executed (i.e. run) with the creation of containers based on the image.
 ```
 # Usage 1: CMD application "argument", "argument", ..
 CMD "echo" "Hello docker!"
 ```
 
-* ENV
+* **ENV**\
 The ENV command is used to set the environment variables (one or more). These variables consist of “key = value” pairs which can be accessed within the container by scripts and applications alike. This functionality of docker offers an enormous amount of flexibility for running programs.
 ```
 # Usage: ENV key value
 ENV SERVER_WORKS 4
 ```
 
-* EXPOSE
+* **EXPOSE**\
 The EXPOSE command is used to associate a specified port to enable networking between the running process inside the container and the outside world (i.e. the host).
 ```
 # Usage: EXPOSE [port]
 EXPOSE 8080
 ```
 
-* FROM
+* **FROM**\
 FROM directive is probably the most crucial amongst all others for Dockerfiles. It defines the base image to use to start the build process.
 ```
 # Usage: FROM [image name]
 FROM ubuntu
 ```
 
-* MAINTAINER
+* **LABEL**\
+The LABEL instruction adds metadata to an image. A LABEL is a key-value pair. To include spaces within a LABEL value, use quotes and backslashes as you would in command-line parsing. A few usage examples:
+```
+LABEL "com.example.vendor"="ACME Incorporated"
+LABEL com.example.label-with-value="foo"
+LABEL version="1.0"
+LABEL description="This text illustrates \
+that label-values can span multiple lines."
+```
+
+* **MAINTAINER** (deprecated)\
+NOTE: Use LABEL
 One of the commands that can be set anywhere in the file - although it would be better if it was declared on top - is MAINTAINER. This non-executing command declares the author, hence setting the author field of the images. It should come nonetheless after FROM.
 ```
 # Usage: MAINTAINER [name]
 MAINTAINER authors_name
 ```
 
-* RUN
+* **RUN**\
 The RUN command is the central executing directive for Dockerfiles. It takes a command as its argument and runs it to form the image. Unlike CMD, it actually is used to build the image (forming another layer on top of the previous one which is committed).
 ```
 # Usage: RUN [command]
 RUN install npm
 ```
 
-* WORKDIR
+* **WORKDIR**\
 The WORKDIR directive is used to set where the command defined with CMD is to be executed.
 ```
 # Usage: WORKDIR /path
