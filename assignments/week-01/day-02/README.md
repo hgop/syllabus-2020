@@ -46,8 +46,8 @@ Should display (depending on your Ubuntu version):
 
 ```
 Distributor ID:   Ubuntu
-Description:      Ubuntu 18.04.3 LTS
-Release:          18.04
+Description:      Ubuntu 20.04.3 LTS
+Release:          20.04
 Codename:         bionic
 ```
 
