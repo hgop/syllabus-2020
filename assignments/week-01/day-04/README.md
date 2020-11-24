@@ -213,7 +213,8 @@ Now you should be able to run your pipeline 🎉
 
 ## Handin
 
-You should store all the source files in your repository:
+This is how your repositories should look after todays assignment which you
+will submit on Friday.
 
 connect-four-client repository:
 ```bash

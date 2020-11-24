@@ -46,9 +46,9 @@ Should display (depending on your Ubuntu version):
 
 ```
 Distributor ID:   Ubuntu
-Description:      Ubuntu 18.04.3 LTS
-Release:          18.04
-Codename:         bionic
+Description:      Ubuntu 20.04.1 LTS
+Release:          20.04
+Codename:         focal
 ```
 
 ## Part 2
@@ -403,7 +403,8 @@ TODO: What was accomplished in this exercise
 
 ## Handin
 
-You should store all the source files in your repository:
+This is how your repositories should look after todays assignment which you
+will submit on Friday.
 
 connect-four-client repository:
 ```bash

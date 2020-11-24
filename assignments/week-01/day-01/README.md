@@ -62,7 +62,7 @@ Introduction into the bash scripting language and learning how to setup our loca
 ## Objectives
 
 - [ ] Create a folder on your machine for the course, called `hgop-2020`, then create a private git repository on Github and name it `infrastructure` and clone it to your hgop-2020 folder.
-- [ ] We recommend using Linux, to set up Linux Ubuntu 18.04 on your machine (options include, mono/dual
+- [ ] We recommend using Linux, to set up Linux Ubuntu 20.04 on your machine (options include, mono/dual
       boot, Virtual Machine options (VMWare, VirtualBox, Parallels), Boot from
       USB) **(Not necessary on macOS)**
 - [ ] Install an editor of choice (e.g. VS Code, Atom, Sublime, etc.)
@@ -121,7 +121,8 @@ Submit a new issue on the course's Github repository with the following informat
 
 ## Handin
 
-You should store the answers and setup scripts inside your repository:
+This is how your repositories should look after todays assignment which you
+will submit on Friday.
 
 infrastructure repository:
 ```text

@@ -477,6 +477,9 @@ and you use the image your pushed to docker hub in day 02.
 - [ ] My files are in the infrastructure repository.
 - [ ] Comment the k8s.yaml.template and terraform files.
 
+This is how your repositories should look after todays assignment which you
+will submit on Friday.
+
 infrastructure repository:
 ```bash
 .
