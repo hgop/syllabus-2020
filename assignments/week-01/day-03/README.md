@@ -229,14 +229,6 @@ Apply:
 ~~~bash
 terraform apply
 ~~~
-Terraform will generate a *.tfstate file, you should also add it to .gitignore since it can
-contain secrets that do not belong in a public repository.\
-The recommended way to keep track of the tfstate file is to store the state remotely that
-won't be necessary for this course.\
-Keep in mind that this file is used by Terraform to keep track of the resources it is 
-managing for you so if you accidentally delete it, it will lose track of your existing
-resources. If that happens go to the AWS management console and delete the instances
-manually then recreate them using Terraform.
 
 It should complete successfully and output the public DNS for the instance as `microk8s_dns`.
 
