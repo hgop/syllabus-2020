@@ -238,6 +238,8 @@ AWS instance so that you have a nicer url to work with. e.g. `team-name.hgopteam
 You should commit everything (including the genrated *.tfstate and *.tfstate.backup files)
 these tfstate files should always be included when you make changes to the infrastructure using 
 terraform since they contain the identifiers of all the resources terraform is managing.
+These state files can contain secrets for some resources, but that is not the case for
+this assignment, but something to keep in mind in the future.
 
 ## Step 8 - MicroK8s
 
