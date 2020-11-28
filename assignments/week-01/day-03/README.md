@@ -278,7 +278,7 @@ Wait for MicroK8s to be ready and then enable the ingress addon.
 ~~~bash
 microk8s status --wait-ready
 
-microk8s.enable ingress
+microk8s.enable dns ingress
 ~~~
 
 Add DNS.6 to `/var/snap/microk8s/current/certs/csr.conf.template`:
