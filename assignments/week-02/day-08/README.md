@@ -91,7 +91,7 @@ Run your acceptance tests agains the newly deployed instance:
       - run: pip install -r requirements_test.txt
       - run: pytest --cov=connect4 tests/acceptance
     environment:
-      API_URL: "http://connect-four-server-acceptance.[TEAM_NAME].hgopteam.com"
+      API_URL: "http://connect-four-server-acceptance.[TEAM_NAME].hgopteam.com/"
 ~~~
 
 ### Part 5 - Create another test
