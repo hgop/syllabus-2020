@@ -229,14 +229,6 @@ Apply:
 ~~~bash
 terraform apply
 ~~~
-Terraform will generate a *.tfstate file, you should also add it to .gitignore since it can
-contain secrets that do not belong in a public repository.\
-The recommended way to keep track of the tfstate file is to store the state remotely that
-won't be necessary for this course.\
-Keep in mind that this file is used by Terraform to keep track of the resources it is 
-managing for you so if you accidentally delete it, it will lose track of your existing
-resources. If that happens go to the AWS management console and delete the instances
-manually then recreate them using Terraform.
 
 It should complete successfully and output the public DNS for the instance as `microk8s_dns`.
 
@@ -246,6 +238,8 @@ AWS instance so that you have a nicer url to work with. e.g. `team-name.hgopteam
 You should commit everything (including the genrated *.tfstate and *.tfstate.backup files)
 these tfstate files should always be included when you make changes to the infrastructure using 
 terraform since they contain the identifiers of all the resources terraform is managing.
+These state files can contain secrets for some resources, but that is not the case for
+this assignment, but something to keep in mind in the future.
 
 ## Step 8 - MicroK8s
 
@@ -284,7 +278,7 @@ Wait for MicroK8s to be ready and then enable the ingress addon.
 ~~~bash
 microk8s status --wait-ready
 
-microk8s.enable ingress
+microk8s.enable dns ingress
 ~~~
 
 Add DNS.6 to `/var/snap/microk8s/current/certs/csr.conf.template`:
