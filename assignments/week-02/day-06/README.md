@@ -156,6 +156,7 @@ Build => Publish => Deploy
 TODO:
 - [ ] Add Circle CI to your connect-four-server repository.
 - [ ] Import environment variables from your connect-four-client Circle CI project.
+- [ ] Add variables that you used when your created your database, e.g. DATABASE_USERNAME. Make sure they're base64 encoded, so if you used `export DATABASE_USERNAME=$(echo -n mister | base64)`, you should set environment variable `echo -n mister | base64` in Circle CI as `DATABASE_USERNAME`: `bWlzdGVy`. 
 - [ ] Change the image name IMAGE_NAME
 - [ ] Change the username and the host in the `k8s.yaml.template` (image and host)
 - [ ] Use deployment script to deploy the server (see information below)
