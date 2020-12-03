@@ -62,6 +62,7 @@ Create a test that spawns N number of threads that run X amount of games:
 
 `tests/capacity/test_parallel.py`
 ~~~python
+from tests.acceptance.test_game import test_game
 from tests.capacity import config
 from typing import List
 import requests
@@ -90,7 +91,7 @@ class State:
 def play_games(i: int, x: int, state: State) -> None:
     try:
         for j in range(x):
-            # TODO test game
+            test_game()
             state.increment_games_played()
             print(f"Thread {i}: finished game number {j}.")
     except:
