@@ -7,10 +7,10 @@ Friday 04.12.2020
 Your Circle CI Pipeline should be running:
 - Lint
 - Unit-Test
-- Acceptance-Test <- Server only
-- Capacity-Test <- Server only
 - Build
 - Publish
+- Acceptance-Test <- Server only
+- Capacity-Test <- Server only
 - Deploy
 
 You should store all the source files in your repository:
