@@ -98,7 +98,7 @@ def play_games(i: int, x: int, state: State) -> None:
 
 # Test: API_URL=http://connect-four-server-capacity.team-name.hgopteam.com/ pytest -s tests/capacity/
 @pytest.mark.timeout(120)
-def test_sequential():
+def test_parallel():
     threads = []
     state = State()
 
