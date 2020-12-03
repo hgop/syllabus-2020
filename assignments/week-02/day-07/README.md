@@ -553,7 +553,7 @@ connect-four-server repository:
 │   ├── game_logic.py
 │   ├── models.py
 │   └── tokens.py
-├── connect4
+├── scripts
 │   ├── create_database.sh
 │   └── deploy.py
 ├── tests
