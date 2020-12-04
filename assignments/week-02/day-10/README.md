@@ -109,7 +109,8 @@ connect-four-server repository:
 ├── k8s.yaml.template
 ├── README.md
 ├── requirements.txt
-└── requirements_dev.txt
+├── requirements_dev.txt
+└── requirements_tests.txt
 ```
 
 They must be placed at these location to get full marks.
