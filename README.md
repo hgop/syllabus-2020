@@ -55,7 +55,7 @@ We will read all chapters in this book. See schedule below.
 | ---------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------- | -------------------------------------------------- |
 | **Lecture**            | - Deploying and Releasing Applications<br>- Managing Data<br>11:00 Q&A [Zoom]() | [Mobile App Deployment](https://youtu.be/LbNDzrHXaI8) <br> Accessibility<br>Usability<br>11:00 Q&A [Zoom]() | - [Managing Continuous Delivery](https://youtu.be/yuzl_xVM-Oo)<br> Team Topology<br> 10:00 Guest lecture on compliance [Zoom]() | Time for students to prepare exam | Exam, 09:00 - 10:30                                |
 | **Reading Assignment** | Chapter 10, 12                                                     | Chapter 11                                                           |Chapter 15                                             |                                   |                                                    |
-| **Lab exercise**       | [Monitoring](/assignments/week-03/day-11/README.md)|   [Data Migrations](/assignments/week-03/day-12/README.md)                           | [E2E Testing](/assignments/week-03/day-13/README.md) |                                   | [Week 3 Assignment](/assignments/week-03/day-14/README.md) |
+| **Lab exercise**       | [Data Migrations](/assignments/week-03/day-11/README.md)|   [E2E Testing](/assignments/week-03/day-12/README.md)                           | [Monitoring](/assignments/week-03/day-13/README.md) |                                   | [Week 3 Assignment](/assignments/week-03/day-14/README.md) |
 
 
 
