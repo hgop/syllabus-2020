@@ -7,10 +7,10 @@ Friday 04.12.2020
 Your Circle CI Pipeline should be running:
 - Lint
 - Unit-Test
-- Acceptance-Test <- Server only
-- Capacity-Test <- Server only
 - Build
 - Publish
+- Acceptance-Test <- Server only
+- Capacity-Test <- Server only
 - Deploy
 
 You should store all the source files in your repository:
@@ -86,7 +86,7 @@ connect-four-server repository:
 │   ├── game_logic.py
 │   ├── models.py
 │   └── tokens.py
-├── connect4
+├── scripts
 │   ├── create_database.sh
 │   └── deploy.py
 ├── tests
@@ -109,7 +109,8 @@ connect-four-server repository:
 ├── k8s.yaml.template
 ├── README.md
 ├── requirements.txt
-└── requirements_dev.txt
+├── requirements_dev.txt
+└── requirements_tests.txt
 ```
 
 They must be placed at these location to get full marks.
