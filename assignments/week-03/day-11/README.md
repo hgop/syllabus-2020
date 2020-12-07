@@ -35,7 +35,7 @@ print(response.json())
 ~~~
 
 ```bash
-python 1337hack.py [OFFSET]
+python 1337hack.py [OFFSET:int]
 ```
 
 Using the code above an attacker can scan the games in the TA's database and get hold of gameId tokens and playerId tokens
